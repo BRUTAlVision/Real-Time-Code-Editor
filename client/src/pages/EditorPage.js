@@ -12,6 +12,7 @@ import {
 } from 'react-router-dom';
 
 const EditorPage = () => {
+    
     const socketRef = useRef(null);
     const codeRef = useRef(null);
     const location = useLocation();
@@ -109,7 +110,7 @@ const EditorPage = () => {
                                 key={client.socketId}
                                 username={client.username}
                             />
-                        ))}
+                        ))} 
                     </div>
                 </div>
                 <button className="btn copyBtn" onClick={copyRoomId}>
