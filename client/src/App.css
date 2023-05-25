@@ -1,3 +1,5 @@
+
+
 .homePageWrapper {
     display: flex;
     align-items: center;
@@ -34,11 +36,11 @@ footer a {
 }
 
 .homePageLogo {
-    height: 192px;
-    margin-bottom: -27px;
+    height: 198px;
+    margin-bottom: -35px;
+    margin-left: -27px;
+    margin-top: -48px;
     width: 12rem;
-    margin-top: -30px;
-    margin-left: -18px;
 }
 
 .inputBox {
@@ -50,6 +52,7 @@ footer a {
     background: #eee;
     font-size: 16px;
     font-weight: bold;
+    color: black;
 }
 
 .btn {
@@ -67,6 +70,22 @@ footer a {
     background: #4aed88;
     width: 100px;
     margin-left: auto;
+    margin-bottom: 20px;
+}
+/* Dasboard */
+
+.correct {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: #ef0b0b;
+    width: 200px;
+    margin-left: auto;
+    
 }
 
 .joinBtn:hover,
@@ -141,6 +160,7 @@ footer a:hover {
     margin-top: 20px;
 }
 .CodeMirror {
+    
     min-height: calc(100vh - 20px);
     font-size: 20px;
     line-height: 1.6;

@@ -18,4 +18,3 @@ How to start the project
 
 5.  run command in terminal  cd ./client/  >>  npm i  >>  npm start  >>  than go to http://localhost:5000
 
-
